@@ -1,0 +1,12 @@
+/////////test 
+
+select * from njzs_order group by client_id;
+
+update njzs_client set factory_id=1 where id<=100;
+update njzs_client set factory_id=2 where id>100;
+
+update njzs_order set factory_id=1 where client_id<=100;
+update njzs_order set factory_id=2 where client_id>100;
+
+
+
