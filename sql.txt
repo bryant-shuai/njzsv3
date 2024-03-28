@@ -10,3 +10,4 @@ update njzs_order set factory_id=2 where client_id>100;
 
 
 
+delete 
